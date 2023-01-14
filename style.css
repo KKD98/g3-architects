@@ -1,0 +1,59 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500;800&display=swap');
+
+/* Common Parts */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* -------------------------- */
+
+/*------------------------------
+     Header Sections Styles     
+--------------------------------*/
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-title{
+    text-align: center;
+    font-size: 48px;
+    color: #131313;
+}
+.banner-description{
+    width: 50%;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.primary-button{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+.banner-img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
