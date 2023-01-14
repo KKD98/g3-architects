@@ -16,12 +16,21 @@ header{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 15px 80px;
+}
+.nav-title{
+    color: #131313;
+    font-size: 36px;
 }
 nav > ul{
     display: flex;
     list-style: none;
     gap: 20px;
+}
+.list-text{
+    color: #424242;
+    font-size: 18px;
 }
 .banner-text{
     display: flex;
@@ -56,4 +65,38 @@ nav > ul{
     margin-right: auto;
     margin-bottom: 30px;
     padding-bottom: 30px;
+}
+
+/*------------------------------
+--- Media Queries For Mobile ---
+------------------------------- */
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    nav > ul {
+        flex-direction: column;
+    }
+    .nav-title{
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    ul{
+        margin-bottom: 10px;
+    }
+    .banner-title{
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    .banner-description{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .primary-button{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
 }
