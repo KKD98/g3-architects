@@ -215,8 +215,8 @@ a{
    display: flex;
    justify-content: space-around;
    align-items: center;
-   gap: 10px;
-   width: 70%;
+   gap: 40px;
+   width: 80%;
    margin-left: 160px;
    margin-bottom: 30px;
 }
@@ -279,16 +279,23 @@ a{
     justify-content: center;
     gap: 60px;
     margin-bottom: 40px;
-    width: 70%;
+    width: 90%;
 }
 .sponsor-image{
-   width: 13%;
+   width: 14%;
   filter: grayscale(100%);
 }
 
 /* Footer Section */
 .footer-section{
-    
+    background-color: #FFF4E7;
+    text-align: center;
+}
+.footer-text{
+    color: #424242;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /*------------------------------
@@ -328,6 +335,9 @@ a{
     .primary-button {
         font-size: 20px;
         margin-bottom: 10px;
+    }
+    .banner-img{
+        width: 100%;
     }
 
     /* Main Part-1 Media Query */
