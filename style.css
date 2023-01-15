@@ -165,6 +165,11 @@ nav>ul {
     flex-direction: column;
     padding: 15px;
     gap: 25px;
+   
+}
+.item{
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 }
 .text-title{
     font-size: 20px;
@@ -286,10 +291,71 @@ a{
   filter: grayscale(100%);
 }
 
+/* Extra Section */
+.extra-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.extra-cards{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.free , .paid {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    border: 2px solid gray;
+    align-items: center;
+}
+.extra-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.extra-description , .extra-card-text{
+    color:#131313;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.extra-card-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.extra-card-text {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.extra-card-list{
+   color: #424242;
+}
+.extra-button{
+    color: white;
+    background-color: #FF900E;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.extra-icon1{
+    width: 20%;
+    margin-bottom: 10px;
+}
+.extra-icon2{
+    width: 23%;
+    margin-bottom: 0;
+}
+
 /* Footer Section */
 .footer-section{
     background-color: #FFF4E7;
     text-align: center;
+    width: 95%;
+    margin-left: 30px;
 }
 .footer-text{
     color: #424242;
@@ -389,4 +455,19 @@ a{
     .sponsor-image{
         width: 35%;
     }
+
+    /* Extra Part */
+    .extra-title{
+        text-align: center;
+    }
+    .extra-cards{
+        flex-direction: column;
+    }
+
+    /* Footer Section */
+   .footer-section{
+    margin-left: 0;
+    width: 100%;
+   }
+
 }
