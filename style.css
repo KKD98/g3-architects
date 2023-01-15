@@ -308,8 +308,14 @@ a{
     display: flex;
     flex-direction: column;
     padding: 10px 0px;
-    border: 2px solid gray;
+    border-radius: 5px;
     align-items: center;
+}
+.free{
+    background-color: rgb(188, 215, 231);
+}
+.paid{
+    background-color: bisque;
 }
 .extra-title{
     font-size: 36px;
@@ -463,7 +469,9 @@ a{
     .extra-cards{
         flex-direction: column;
     }
-
+    .extra-card-title{
+        text-align: center;
+    }
     /* Footer Section */
    .footer-section{
     margin-left: 0;
